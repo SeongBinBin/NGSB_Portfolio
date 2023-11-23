@@ -1,0 +1,28 @@
+.Header_container{
+    width: 100%;
+    height: 70px;
+    /* background-color: transparent; */
+    border-bottom: 1px solid black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.header_name{
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+
+.header_index{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 1.3rem;
+}
+.header_index p{
+    cursor: pointer;
+}

@@ -4,7 +4,7 @@ import '../Style/AOBO.css'
 function AOBO(){
     return(
         <div className="AOBO_container">
-            test
+            
         </div>
     )
 }
