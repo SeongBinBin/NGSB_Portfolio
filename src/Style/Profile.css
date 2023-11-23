@@ -17,8 +17,9 @@
 
 .name_card_img{
     width: 40%;
+    background-color: white;
 }
-.name_card_text{
+.name_card_area{
     width: 60%;
     border-left: 1px solid black;
 }
@@ -26,9 +27,23 @@
 .name_card_text_title{
     position: absolute;
     top: 0;
+    margin-left: 15px;
 }
-.name_card_text_info{
+.name_card_info{
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
+    right: 5%;
     display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.name_card_info_icon{
+    display: flex;
+    flex-direction: column;
+}
+.name_card_info_text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
 }
