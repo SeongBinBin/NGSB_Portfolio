@@ -1,18 +1,17 @@
 import React from "react";
 import './App.css'
+import Profile from "./Components/Profile";
+import AOBO from "./Components/AOBO";
+import FitnessHouston from "./Components/FitnessHouston";
+import TravelMaker from "./Components/TravelMaker";
 
 function App() {
   return (
     <div className="App">
-      <div className="test">
-        test
-      </div>
-      <div className="test2">
-        test2
-      </div>
-      <div className="test3">
-        test3
-      </div>
+      <Profile />
+      <AOBO />
+      <FitnessHouston />
+      <TravelMaker />
     </div>
   );
 }
