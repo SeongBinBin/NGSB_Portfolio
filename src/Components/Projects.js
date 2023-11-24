@@ -37,7 +37,8 @@ function Projects(){
                         </div>
                         <div className="project_content">
                             <div>
-                                <span>3</span>
+                                <img style={{width: '100%', height: '400px',}} src={process.env.PUBLIC_URL + "/Imgs/TravelMakerMain.png"} alt="TravelMaker Main" />
+                                <p>test</p>
                             </div>
                         </div>
                     </div>

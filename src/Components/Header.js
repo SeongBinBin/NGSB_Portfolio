@@ -30,7 +30,7 @@ function Header(){
     return(
         <div className="Header_container">
             <div className="header_name">
-                <p>NGSB</p>
+                <p style={{cursor: 'pointer'}} onClick={goHome}>NGSB</p>
             </div>
             <div className="header_index">
                 <p className="home" onClick={goHome}>홈</p>
