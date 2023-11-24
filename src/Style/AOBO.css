@@ -1,4 +1,15 @@
 .AOBO_container{
     height: 100%;
-    background-color: skyblue;
+    background-color: #f5ebe0;
+}
+
+.first_project{
+    position: absolute;
+    top: 215%; left: 20%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 300px;
+    border: 1px solid black;
 }

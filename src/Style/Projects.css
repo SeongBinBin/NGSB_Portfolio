@@ -1,0 +1,47 @@
+.project_container{
+    height: 100%;
+    background-color: #EDEDE9;
+}
+
+.project_area{
+    width: 70%;
+    position: absolute;
+    top: 150%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.project_detail{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 125%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.project_box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex: 1;
+    gap: 10px;
+}
+.project_name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.project_content{
+    border: 1px solid black;
+    height: 600px;
+}

@@ -4,11 +4,17 @@
     /* background-color: #f5ebe0; */
 }
 
+.self_confidence{
+    position: absolute;
+    top: 20vh; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .name_card{
-    width: 60%;
+    width: 700px;
     height: 300px;
     position: absolute;
-    top: 40%; left: 50%;
+    top: 40vh; left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid black;
     display: flex;
@@ -16,7 +22,7 @@
 }
 
 .name_card_img{
-    width: 40%;
+    width: 200px;
     background-color: white;
 }
 .name_card_area{

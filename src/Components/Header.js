@@ -14,14 +14,17 @@ function Header(){
     const goHome = () => {
         scroll(0)
     }
-    const first = () => {
+    const projects = () => {
         scroll(window.innerHeight)
     }
-    const second = () => {
+    const first = () => {
         scroll(window.innerHeight * 2)
     }
-    const third = () => {
+    const second = () => {
         scroll(window.innerHeight * 3)
+    }
+    const third = () => {
+        scroll(window.innerHeight * 4)
     }
 
     return(
@@ -31,6 +34,7 @@ function Header(){
             </div>
             <div className="header_index">
                 <p className="home" onClick={goHome}>홈</p>
+                <p className="projects" onClick={projects}>프로젝트</p>
                 <p className="first" onClick={first}>목차</p>
                 <p className="second" onClick={second}>목차</p>
                 <p className="third" onClick={third}>목차</p>
