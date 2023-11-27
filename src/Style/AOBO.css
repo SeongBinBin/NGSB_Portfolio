@@ -13,3 +13,9 @@
     width: 300px;
     border: 1px solid black;
 }
+
+.AOBO_main{
+    position: absolute;
+    top: 250%; left: 50%;
+    transform: translate(-50%, -50%);
+}

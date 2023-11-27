@@ -9,6 +9,9 @@ function FitnessHouston(){
                     <span>프로젝트 2</span>
                     <span>Fitness Houston</span>
                 </div>
+                <div className="FH_main">
+                    <a href="https://github.com/SeongBinBin/Fitness_Houston" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
     )

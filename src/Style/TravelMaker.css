@@ -13,3 +13,9 @@
     width: 300px;
     border: 1px solid black;
 }
+
+.TM_main{
+    position: absolute;
+    top: 450%; left: 50%;
+    transform: translate(-50%, -50%);
+}

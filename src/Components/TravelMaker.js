@@ -9,6 +9,9 @@ function TravelMaker(){
                     <span>프로젝트 3</span>
                     <span>TravelMaker</span>
                 </div>
+                <div className="TM_main">
+                    <a href="https://github.com/SeongBinBin/TravelMaker" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
     )

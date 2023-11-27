@@ -9,6 +9,9 @@ function AOBO(){
                     <span>프로젝트 1</span>
                     <span>AOBO ( All Of the BoxOffice )</span>
                 </div>
+                <div className="AOBO_main">
+                    <a href="https://github.com/SeongBinBin/AOBO" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
     )

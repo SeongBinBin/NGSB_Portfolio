@@ -14,3 +14,7 @@
   font-family: 'SUIT-Regular';
   font-size: 1rem;
 }
+
+a{
+  text-decoration: none;
+}
