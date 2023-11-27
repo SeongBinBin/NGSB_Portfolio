@@ -1,5 +1,5 @@
 .TravelMaker_container{
-    height: 100%;
+    height: 100vh;
     background-color: #d5bdaf;
 }
 
@@ -18,4 +18,7 @@
     position: absolute;
     top: 450%; left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

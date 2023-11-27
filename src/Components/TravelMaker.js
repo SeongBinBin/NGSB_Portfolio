@@ -10,6 +10,7 @@ function TravelMaker(){
                     <span>TravelMaker</span>
                 </div>
                 <div className="TM_main">
+                    <span>여행 다이어리 프로젝트</span>
                     <a href="https://github.com/SeongBinBin/TravelMaker" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
