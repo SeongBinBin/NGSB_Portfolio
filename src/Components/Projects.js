@@ -37,8 +37,8 @@ function Projects(){
                         </div>
                         <div className="project_content">
                             <div>
-                                <img style={{width: '50%', height: '400px',}} src={process.env.PUBLIC_URL + "/Imgs/TravelMaker/TravelMakerMain.png"} alt="TravelMaker Main" />
-                                <img style={{width: '50%', height: '400px',}} src={process.env.PUBLIC_URL + "/Imgs/TravelMaker/TravelMakerMap.png"} alt="TravelMaker Main" />
+                                <img style={{width: '50%', height: '400px',}} src={process.env.PUBLIC_URL + "/Imgs/TravelMaker/TravelMaker_Main.png"} alt="TravelMaker Main" />
+                                <img style={{width: '50%', height: '400px',}} src={process.env.PUBLIC_URL + "/Imgs/TravelMaker/TravelMaker_Map.png"} alt="TravelMaker Main" />
                             </div>
                         </div>
                     </div>

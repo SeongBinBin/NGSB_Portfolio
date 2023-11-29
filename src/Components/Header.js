@@ -35,9 +35,9 @@ function Header(){
             <div className="header_index">
                 <p className="home" onClick={goHome}>홈</p>
                 <p className="projects" onClick={projects}>프로젝트</p>
-                <p className="first" onClick={first}>목차</p>
-                <p className="second" onClick={second}>목차</p>
-                <p className="third" onClick={third}>목차</p>
+                <p className="first" onClick={first}>1</p>
+                <p className="second" onClick={second}>2</p>
+                <p className="third" onClick={third}>3</p>
             </div>
         </div>
     )
