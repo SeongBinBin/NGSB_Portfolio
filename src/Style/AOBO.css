@@ -1,20 +1,9 @@
-.AOBO_container{
+.AOBO{
     height: 100vh;
     background-color: #f5ebe0;
 }
 
-.first_project{
-    position: absolute;
-    top: 215%; left: 20%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    width: 300px;
-    border: 1px solid black;
-}
-
-.AOBO_main{
+.AOBO_container{
     position: absolute;
     top: 255%; left: 50%;
     transform: translate(-50%, -50%);
@@ -28,6 +17,18 @@
     width: 85%;
     height: 85%;
 }
+.project_title{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.AOBO_main{
+    display: flex;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+}
 
 .AOBO_img_container{
     position: relative;
@@ -35,8 +36,8 @@
     flex-direction: column;
     gap: 5px;
     top: 2%;
-    width: 75%;
-    height: 70%;
+    width: 70%;
+    height: 80%;
 }
 .AOBO_img_box{
     position: relative;
@@ -51,7 +52,8 @@
     top: 10%; left: 5%;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #6fadcf;
+    border: 1px solid #0073CF;
+    padding: 5px;
 }
 
 .slider_controller{
@@ -68,4 +70,8 @@
 }
 .left_icon, .right_icon{
     cursor: pointer;
+}
+
+.AOBO_text_container{
+    height: 100%;
 }

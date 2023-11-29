@@ -31,13 +31,19 @@ function AOBO(){
     }
 
     return(
-        <div className="AOBO_container">
-            <div>
+        <div className="AOBO">
+            <div className="AOBO_container">
+                <div className="project_title">
+                    <div style={{display: 'flex', gap: '5px', justifyContent: 'center', alignItems: 'center'}}>
+                        <span>프로젝트 1</span>
+                        <span style={{fontSize: '1rem'}}>( 개인 프로젝트 )</span>
+                    </div>
+                    <div style={{display: 'flex', gap: '5px', justifyContent: 'center', alignItems: 'center'}}>
+                        <span>AOBO</span>
+                        <span style={{fontSize: '1rem'}}>( All Of the BoxOffice )</span>
+                    </div>
+                </div>
                 <div className="AOBO_main">
-                    <span>프로젝트 1</span>
-                    <span>AOBO ( All Of the BoxOffice )</span>
-                    {/* <span>박스오피스 프로젝트</span>
-                    <a href="https://github.com/SeongBinBin/AOBO" target="_blank" rel="noopener noreferrer">GitHub</a> */}
                     <div className="AOBO_img_container">
                         <div className="AOBO_img_box">
                             {imageFiles.map((imageName, index) => (
@@ -67,6 +73,9 @@ function AOBO(){
                             <span>{`${currentIndex + 1} / ${imageFiles.length}`}</span>
                             <AiOutlineRight className="right_icon" onClick={NextSlide}/>
                         </div>
+                    </div>
+                    <div className="AOBO_text_container">
+                        <a href="https://github.com/SeongBinBin/AOBO" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </div>
             </div>
