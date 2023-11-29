@@ -19,11 +19,15 @@ function Profile(){
                             <span><AiOutlineUser /></span>
                             <span><MdLocalPhone /></span>
                             <span><AiOutlineMail /></span>
+                            <span>주소지</span>
+                            <span>생년월일</span>
                         </div>
                         <div className="name_card_info_text">
                             <span>남궁성빈</span>
                             <span>010-5310-9717</span>
                             <span>k971711@naver.com</span>
+                            <span>대전광역시 대덕구</span>
+                            <span>970728</span>
                         </div>
                     </div>
                 </div>

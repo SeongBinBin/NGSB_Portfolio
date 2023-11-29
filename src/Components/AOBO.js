@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import '../Style/AOBO.css'
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import { AiOutlineLeft, AiOutlineRight, AiFillGithub, AiOutlineIe } from "react-icons/ai";
 
 function AOBO(){
     const imageFiles = [
@@ -75,7 +75,30 @@ function AOBO(){
                         </div>
                     </div>
                     <div className="AOBO_text_container">
-                        <a href="https://github.com/SeongBinBin/AOBO" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <span>AOBO는 All Of the BoxOffice의 줄임말입니다.</span>
+                        <br/>
+                        <span>저와 같이, 요즘 영화를 취미로 삼고 즐기시는 분들이 많습니다.</span>
+                        <span>자연스레 영화의 정보를 쉽게 찾을 수 있습니다.</span>
+                        <span>하지만 매일매일 쌓여가는 박스오피스에 관한 정보를 확인하는 것은 쉽지 않았고,</span>
+                        <span>원하는 날짜의 박스오피스 순위는 어땠는지 쉽게 확인이 가능한 곳을 만들고 싶었습니다.</span>
+                        <br/>
+                        <span>AOBO는 자바스크립트를 활용한 웹 프로젝트입니다.</span>
+                        <span>
+                            <a href="https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do" target="_blank" rel="noopener noreferrer"  style={{textDecoration: 'underline'}}>영화 진흥 위원회</a>
+                            의 일별 박스오피스와 영화 상세정보 API를 사용하고,
+                        </span>
+                        <span>
+                        <a href="https://www.kobis.or.kr/kobisopenapi/homepg/main/main.do" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline'}}>TMDB</a>
+                            의 영화 API 중에서 포스터 정보를 사용하였습니다.
+                        </span>
+                        <br/>
+                        <span>회원관리에 사용한 DB는 MongoDB를 사용했고,</span>
+                        <span>백엔드 배포는 cloudtype을 사용했습니다.</span>
+                        <br/>
+                        <div style={{display: 'flex', gap: 10}}>
+                            <a href="https://seongbinbin.github.io/AOBO/" target="_blank" rel="noopener noreferrer"><AiOutlineIe size={30}/></a>
+                            <a href="https://github.com/SeongBinBin/AOBO" target="_blank" rel="noopener noreferrer"><AiFillGithub size={30}/></a>
+                        </div>
                     </div>
                 </div>
             </div>
