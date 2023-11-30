@@ -7,7 +7,7 @@ import { AiOutlineMail, AiOutlineUser } from "react-icons/ai";
 function Profile(){
     return(
         <div className="Profile_container">
-            <span className="self_confidence"> 깔끔하고 단단한 프론트엔드 개발자입니다. </span>
+            <span className="self_confidence"> ~ 프론트엔드 개발자입니다. </span>
             <div className="name_card">
                 <div className="name_card_img">
                     사진

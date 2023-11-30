@@ -1,24 +1,19 @@
-.FitnessHouston_container{
+.FitnessHouston{
   height: 100vh;
   background-color: #e3d5ca;
 }
 
-.second_project{
+.FitnessHouston_container{
   position: absolute;
-  top: 315%; left: 20%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  width: 300px;
-  border: 1px solid black;
-}
-
-.FH_main{
-  position: absolute;
-  top: 350%; left: 50%;
+  top: 455%; left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+
+  /* border: 1px solid black; */
+  width: 85%;
+  height: 85%;
 }

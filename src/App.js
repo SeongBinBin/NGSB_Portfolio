@@ -2,6 +2,7 @@ import React from "react";
 import './App.css'
 
 import Header from "./Components/Header";
+import Cover from "./Components/Cover";
 import Profile from "./Components/Profile";
 import Projects from "./Components/Projects";
 import AOBO from "./Components/AOBO";
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Cover />
       <Profile />
       <Projects />
       <AOBO />
