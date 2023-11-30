@@ -7,8 +7,8 @@
   src: url('./Fonts/Yeongdeok\ Sea.ttf');
 }
 
-body::-webkit-scrollbar{
-  display: none;
+body{
+  overflow-y: hidden;
 }
 
 .App {

@@ -61,6 +61,7 @@ function FitnessHouston(){
                             ))}
                             {explain.map((explainText, index) => (
                                 <span
+                                    key={index}
                                     className="explain"
                                     style={{
                                         display: index === currentIndex? 'block': 'none'
@@ -82,7 +83,7 @@ function FitnessHouston(){
                         <span>Fitness Houston은 리액트를 활용한 웹 프로젝트입니다.</span>
                         <span>기존의 '짐박스'라는 헬스 브랜드를 기반으로,<br/>'메가커피', '한샘몰' 등 여러 사이트 들의 디자인, 기능들을 참고하여<br/>저희 팀이 새롭게 만들어본 프로젝트입니다.</span>
                         <br/>
-                        <span>제 역할은 공통 부분인 헤더와 푸터를 제작하고, 공지사항과 지도부분을 구현하였습니다.</span>
+                        <span>제 역할은 공통부분인 헤더와 푸터를 제작하고, 공지사항과 지도 부분을 구현하였습니다.</span>
                         <br/>
                         <span>지도 부분은 카카오 맵 API를 사용했으며,</span>
                         <span>공지사항 글 관리 및 회원관리에 사용한 DB는 MongoDB를 사용했고,</span>

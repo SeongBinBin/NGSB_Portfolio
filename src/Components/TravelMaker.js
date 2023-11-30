@@ -59,6 +59,7 @@ function TravelMaker(){
                             ))}
                             {explain.map((explainText, index) => (
                                 <span
+                                    key={index}
                                     className="travelmaker_explain"
                                     style={{
                                         display: index === currentIndex? 'block': 'none'
@@ -76,7 +77,7 @@ function TravelMaker(){
                     </div>
                     <div className="project_text_container">
                         <span>TravelMaker는 여행 다이어리 앱입니다.</span>
-                        <span>기존의 지도 앱들은 장소 저장 기능에 간단한 메모 정도만 남길 수 있고,<br/>다이어리 앱들은 다이어리와 캘린더 기능 정도만 있는 앱들이 대부분입니다.</span>
+                        <span>기존의 유명 지도 플랫폼들은 장소 저장 기능에 간단한 메모 정도만 남길 수 있고,<br/>다이어리 앱들은 다이어리와 캘린더 기능 정도만 있는 앱들이 대부분입니다.</span>
                         <span>이 두 기능을 합쳐보고자 여행 다이어리 앱을 설계했습니다.</span>
                         <br/>
                         <span>TravelMaker는 리액트 네이티브를 활용한 앱 프로젝트입니다.</span>
@@ -93,7 +94,7 @@ function TravelMaker(){
                             </div>
                             <div style={{display: 'flex', alignItems: 'center', height: '30px'}}>
                                 <span className="icon_explain">APK</span>
-                                <a href="" target="_blank" rel="noopener noreferrer" className="icon_box_icon"><FiDownload size={25}/></a>
+                                <a href="https://drive.google.com/file/d/1I_Tdl_cwCSg07uh7mKyBdojaw0qdhc_u/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="icon_box_icon"><FiDownload size={25}/></a>
                             </div>
                             <div style={{display: 'flex', alignItems: 'center', height: '30px'}}>
                                 <span className="icon_explain">GitHub</span>
