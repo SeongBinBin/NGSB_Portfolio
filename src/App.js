@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style={{height: '100vh', backgroundColor: '#fff'}}><Cover /></div>
+      <div style={{height: '100vh', backgroundColor: '#efefef'}}><Cover /></div>
       <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Profile /></div>
       <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Projects /></div>
       <div style={{height: '100vh', backgroundColor: '#f5ebe0'}}><AOBO /></div>

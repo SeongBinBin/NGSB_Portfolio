@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 
 function TravelMaker(){
     const imageFiles = [
+        "TravelMaker_Login.png",
         "TravelMaker_Main.png",
         "TravelMaker_Map.png",
         "TravelMaker_Input.png",
@@ -12,6 +13,7 @@ function TravelMaker(){
         "TravelMaker_Profile.png",
     ]
     const explain = [
+        "로그인 화면",
         "메인 페이지",
         "지역 선택",
         "입력 화면",

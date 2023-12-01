@@ -6,6 +6,10 @@
   font-family: 'Yeongdeock';
   src: url('./Fonts/Yeongdeok\ Sea.ttf');
 }
+@font-face {
+  font-family: 'Samlip';
+  src: url('./Fonts/SamliphopangcheOutline.ttf');
+}
 
 body{
   overflow-y: hidden;
@@ -77,7 +81,6 @@ a{
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  font-weight: 600;
   margin-bottom: 10px;
   font-family: 'Yeongdeock';
 }
