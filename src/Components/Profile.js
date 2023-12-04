@@ -2,7 +2,7 @@ import React from "react";
 import '../Style/Profile.css'
 
 import { MdLocalPhone, MdOutlineDateRange } from "react-icons/md";
-import { AiOutlineMail, AiOutlineUser, AiFillGithub } from "react-icons/ai";
+import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
 import { GrLocation } from "react-icons/gr";
 
 function Profile(){
@@ -11,7 +11,7 @@ function Profile(){
             <div className="self_introduction">
                 <div className="name_card_img">
                     {/* 사진 */}
-                    <img src={process.env.PUBLIC_URL + `/Imgs/취업사진.png`}/>
+                    <img src={process.env.PUBLIC_URL + `/Imgs/취업사진.png`} alt="profile_picture"/>
                 </div>
                 <div className="self_confidence">
                     <span>한결같은 프론트엔드 개발자가 되고 싶은 남궁성빈입니다.</span>
