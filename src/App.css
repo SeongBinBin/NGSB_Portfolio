@@ -55,7 +55,7 @@ a{
 
 .project_text_container{
   position: relative;
-  border: 1px solid black;
+  border: 1px solid #333;
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -87,11 +87,12 @@ a{
 
 .explain{
   position: absolute;
-  top: 10%; left: 5%;
+  bottom: 0%; right: 0%;
   font-size: 1.2rem;
   font-weight: 600;
-  background-color: #fff;
-  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 .slider_controller{

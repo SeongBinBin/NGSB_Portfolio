@@ -1,72 +1,131 @@
 .Profile_container{
-    height: 100%;
-    position: relative;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    top: 150%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .self_introduction{
-    border: 1px solid black;
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1 1 0;
+    padding-left: 10%;
+}
+.self_introduction div {
+    position: relative;
+    top: 15%;
+}
+.name_card_img{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.name_card_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 .self_confidence{
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
-
+.self_confidence span{
+    font-size: 1.3rem;
+}
+.self_introduction a {
+    position: relative;
+    top: 15%;
+    margin-left: 10px;
+}
 .self_introduction a:hover{
     color: #989898;
 }
 
-.name_card{
-    width: 100%;
+.profile_info_area{
     height: 100%;
-    position: relative;
-}
-
-.name_card_img{
-    width: 200px;
-    height: 200px;
-    background-color: white;
-}
-.name_card_area{
-    position: absolute;
-    width: 400px;
-    height: 50%;
-    top: 20%;
-    right: 10%;
-    /* border: 1px solid black; */
+    flex: 1 1 0;
     display: flex;
     flex-direction: column;
+}
+
+.profile_tech_stack{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 0;
+}
+.profile_tech_stack_title{
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.tech_stack_category{
+    position: relative;
+    top: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tech_stack_category span{
+    width: 15%;
+    text-align: right;
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+.tech_stack_category div{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
     gap: 5px;
 }
 
-.name_card_info{
-    position: absolute;
-    bottom: 3%;
-    right: 3%;
+.name_card_area{
+    position: relative;
+    width: 100%;
+    height: 45%;
     display: flex;
-    gap: 10px;
     flex-direction: column;
-    align-items: center;
-    width: 200px;
-    /* border: 1px solid black; */
+    gap: 5px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.name_card_area span{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.name_card_info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: auto; margin-right: auto;
 }
 
 .name_card_info_box{
     width: 100%;
-    position: relative;
     display: flex;
     gap: 10px;
-    flex: 1;
-    border: 1px solid black;
+    flex: 1 1 0;
+    border: 1px solid #333;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
-    background-color: #fff;
+    font-size: 1.3rem;
+    /* background-color: #fff; */
     border-radius: 10px;
 }
 

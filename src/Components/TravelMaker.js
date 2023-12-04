@@ -62,7 +62,7 @@ function TravelMaker(){
                             {explain.map((explainText, index) => (
                                 <span
                                     key={index}
-                                    className="travelmaker_explain"
+                                    className="explain"
                                     style={{
                                         display: index === currentIndex? 'block': 'none'
                                     }}

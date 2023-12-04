@@ -101,7 +101,7 @@ function FitnessHouston(){
                             </div>
                             <div style={{display: 'flex', alignItems: 'center', height: '30px'}}>
                                 <span className="icon_explain">URL</span>
-                                <a href="https://github.com/SeongBinBin/Fitness_Houston" target="_blank" rel="noopener noreferrer" className="icon_box_icon"><GoLink size={25}/></a>
+                                <a href="https://seongbinbin.github.io/Fitness_Houston/" target="_blank" rel="noopener noreferrer" className="icon_box_icon"><GoLink size={25}/></a>
                             </div>
                             <div style={{display: 'flex', alignItems: 'center', height: '30px'}}>
                                 <span className="icon_explain">GitHub</span>

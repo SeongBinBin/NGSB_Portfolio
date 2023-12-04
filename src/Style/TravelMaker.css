@@ -20,18 +20,18 @@
 
 .travelmaker_img_box{
     position: relative;
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .travelmaker_img_box img{
     position: absolute;
     top: 0%; left: 35%;
 }
 
-.travelmaker_explain{
+/* .travelmaker_explain{
     position: absolute;
-    top: 10%; left: 25%;
+    bottom: -7%; right: 0%;
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: #fff;
     padding: 5px;
-}
+} */
