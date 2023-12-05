@@ -41,12 +41,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style={{height: '100vh', backgroundColor: '#efefef'}}><Cover /></div>
+      <div style={{height: '100vh', backgroundColor: '#EFEFEF'}}><Cover /></div>
       <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Profile /></div>
       <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Projects /></div>
-      <div style={{height: '100vh', backgroundColor: '#f5ebe0'}}><AOBO /></div>
-      <div style={{height: '100vh', backgroundColor: '#e3d5ca'}}><FitnessHouston /></div>
-      <div style={{height: '100vh', backgroundColor: '#d5bdaf'}}><TravelMaker /></div>
+      <div style={{height: '100vh', backgroundColor: '#F5EBE0'}}><AOBO /></div>
+      <div style={{height: '100vh', backgroundColor: '#E6D9CF'}}><FitnessHouston /></div>
+      <div style={{height: '100vh', backgroundColor: '#E3D5CA'}}><TravelMaker /></div>
     </div>
   );
 }

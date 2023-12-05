@@ -77,7 +77,7 @@ function AOBO(){
                         </div>
                     </div>
                     <div className="project_text_container">
-                        <span>AOBO는<br/>박스오피스의 모든 것이라는 뜻의<br/>All Of the BoxOffice의 줄임말입니다.</span>
+                        <span>AOBO는<br/>박스오피스의 모든 것이라는 뜻인<br/>All Of the BoxOffice의 줄임말입니다.</span>
                         <br/>
                         <span>저와 같이, 요즘 영화를 취미로 삼고 즐기시는 분들이 많습니다.</span>
                         <span>자연스레 영화의 정보를 쉽게 찾을 수 있습니다.</span>
