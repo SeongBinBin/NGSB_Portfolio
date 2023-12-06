@@ -97,6 +97,8 @@ function AOBO(){
                         <span>회원관리에 사용한 DB는 MongoDB를 사용했고,</span>
                         <span>백엔드 배포는 cloudtype을 사용했습니다.</span>
                         <br/>
+                        <span>모바일 크기까지의 반응형 웹 설정을 하였습니다.</span>
+                        <br/>
                         <div className="icon_box">
                             <div className="tech_stack">
                                 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html"/>
