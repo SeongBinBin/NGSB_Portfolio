@@ -8,6 +8,7 @@ import Projects from "./Components/Projects";
 import AOBO from "./Components/AOBO";
 import FitnessHouston from "./Components/FitnessHouston";
 import TravelMaker from "./Components/TravelMaker";
+import Careers from "./Components/Careers";
 
 function App() {
   const [currentComponent, setCurrentComponent] = useState(0)
@@ -16,7 +17,7 @@ function App() {
     const handleScroll = (event) => {
       const deltaY = event.deltaY
 
-      if (deltaY > 0 && currentComponent < 5) { // 5는 총 컴포넌트 개수 (0부터 시작)
+      if (deltaY > 0 && currentComponent < 6) { // 5는 총 컴포넌트 개수 (0부터 시작)
         setCurrentComponent(prev => prev + 1)
       } else if (deltaY < 0 && currentComponent > 0) {
         setCurrentComponent(prev => prev - 1)
@@ -43,6 +44,7 @@ function App() {
       <Header />
       <div style={{height: '100vh', backgroundColor: '#EFEFEF'}}><Cover /></div>
       <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Profile /></div>
+      <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Careers /></div>
       <div style={{height: '100vh', backgroundColor: '#EDEDE9'}}><Projects /></div>
       <div style={{height: '100vh', backgroundColor: '#F5EBE0'}}><AOBO /></div>
       <div style={{height: '100vh', backgroundColor: '#E6D9CF'}}><FitnessHouston /></div>

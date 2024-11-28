@@ -1,19 +1,31 @@
-/* .AOBO{
+/* .Careers{
     height: 100vh;
-    background-color: #f5ebe0;
+    background-color: #d5bdaf;
 } */
 
-.AOBO_container{
+.Careers_container{
     position: absolute;
-    top: 455%; left: 50%;
+    top: 255%; left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
-
+  
     /* border: 1px solid black; */
     width: 85%;
     height: 85%;
+}
+
+.career_index{
+    text-align: left;
+    white-space: pre-line;
+    padding-left: 2rem;
+}
+.career_title{
+    font-size: 1.5rem;
+}
+.career_description{
+    font-size: 1.2rem;
 }

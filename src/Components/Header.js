@@ -18,6 +18,9 @@ function Header(){
         scroll(window.innerHeight)
     }
     const projects = () => {
+        scroll(window.innerHeight * 3)
+    }
+    const careers = () => {
         scroll(window.innerHeight * 2)
     }
 
@@ -29,6 +32,7 @@ function Header(){
             <div className="header_index">
                 <p className="home" onClick={goHome}>홈</p>
                 <p className="home" onClick={profile}>프로필</p>
+                <p className="careers" onClick={careers}>경력</p>
                 <p className="projects" onClick={projects}>프로젝트</p>
             </div>
         </div>

@@ -11,13 +11,13 @@ function Projects(){
     }
 
     const goAOBO = () => {
-        scroll(window.innerHeight * 3)
-    }
-    const goFH = () => {
         scroll(window.innerHeight * 4)
     }
-    const goTM = () => {
+    const goFH = () => {
         scroll(window.innerHeight * 5)
+    }
+    const goTM = () => {
+        scroll(window.innerHeight * 6)
     }
 
     return(
