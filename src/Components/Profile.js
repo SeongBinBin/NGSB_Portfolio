@@ -14,7 +14,7 @@ function Profile(){
                     <img src={process.env.PUBLIC_URL + `/Imgs/취업사진.png`} alt="profile_picture"/>
                 </div>
                 <div className="self_confidence">
-                    <span>한결같은 프론트엔드 개발자가 되고 싶은 남궁성빈입니다.</span>
+                    <span>한결같은 개발자가 되고 싶은 남궁성빈입니다.</span>
                     <br/>
                     {/* <span>학력 - 우송대학교 컴퓨터 정보·보안 전공 졸업</span> */}
                     <span>우송대학교 컴퓨터 정보·보안 전공을 졸업하고</span>
