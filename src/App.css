@@ -11,9 +11,9 @@
   src: url('./Fonts/SamliphopangcheOutline.ttf');
 }
 
-body{
+/* body{
   overflow-y: hidden;
-}
+} */
 
 .App {
   margin: 0;

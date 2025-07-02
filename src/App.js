@@ -11,33 +11,33 @@ import TravelMaker from "./Components/TravelMaker";
 import Careers from "./Components/Careers";
 
 function App() {
-  const [currentComponent, setCurrentComponent] = useState(0)
+  // const [currentComponent, setCurrentComponent] = useState(0)
 
-  useEffect(() => {
-    const handleScroll = (event) => {
-      const deltaY = event.deltaY
+  // useEffect(() => {
+  //   const handleScroll = (event) => {
+  //     const deltaY = event.deltaY
 
-      if (deltaY > 0 && currentComponent < 6) { // 5는 총 컴포넌트 개수 (0부터 시작)
-        setCurrentComponent(prev => prev + 1)
-      } else if (deltaY < 0 && currentComponent > 0) {
-        setCurrentComponent(prev => prev - 1)
-      }
-    }
+  //     if (deltaY > 0 && currentComponent < 6) { // 5는 총 컴포넌트 개수 (0부터 시작)
+  //       setCurrentComponent(prev => prev + 1)
+  //     } else if (deltaY < 0 && currentComponent > 0) {
+  //       setCurrentComponent(prev => prev - 1)
+  //     }
+  //   }
 
-    window.addEventListener('wheel', handleScroll)
+  //   window.addEventListener('wheel', handleScroll)
 
-    return () => {
-      window.removeEventListener('wheel', handleScroll)
-    }
-  }, [currentComponent])
+  //   return () => {
+  //     window.removeEventListener('wheel', handleScroll)
+  //   }
+  // }, [currentComponent])
 
-  useEffect(() => {
-    const yOffset = window.innerHeight * currentComponent
-    window.scrollTo({
-      top: yOffset,
-      behavior: 'smooth'
-    });
-  }, [currentComponent])
+  // useEffect(() => {
+  //   const yOffset = window.innerHeight * currentComponent
+  //   window.scrollTo({
+  //     top: yOffset,
+  //     behavior: 'smooth'
+  //   });
+  // }, [currentComponent])
 
   return (
     <div className="App">
